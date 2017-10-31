@@ -8,3 +8,7 @@
   with_items:
     - docker-py>=1.10.6
     - six>=1.10.0
+- name: Create config directory
+  file:
+    path: /etc/docker
+    state: directory
