@@ -1,3 +1,4 @@
 - hosts: app
   roles:
+	- geerlingguy.repo-epel
     - geerlingguy.docker
