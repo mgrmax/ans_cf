@@ -1,4 +1,4 @@
 - hosts: app
   roles:
-- geerlingguy.centos-epel-repo
+- geerlingguy.repo-epel
 - geerlingguy.docker
